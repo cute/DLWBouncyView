@@ -10,21 +10,10 @@
 		525BF1221BA2CC42002C6974 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 525BF1211BA2CC42002C6974 /* main.m */; };
 		525BF1251BA2CC42002C6974 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 525BF1241BA2CC42002C6974 /* AppDelegate.m */; };
 		525BF1281BA2CC42002C6974 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525BF1271BA2CC42002C6974 /* ViewController.m */; };
-		525BF12B1BA2CC42002C6974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525BF1291BA2CC42002C6974 /* Main.storyboard */; };
 		525BF12D1BA2CC42002C6974 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525BF12C1BA2CC42002C6974 /* Images.xcassets */; };
 		525BF1301BA2CC42002C6974 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525BF12E1BA2CC42002C6974 /* LaunchScreen.xib */; };
-		525BF13C1BA2CC42002C6974 /* BouncyViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 525BF13B1BA2CC42002C6974 /* BouncyViewTests.m */; };
+		525BF1481BA2CCC6002C6974 /* DLWBouncyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 525BF1471BA2CCC6002C6974 /* DLWBouncyView.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		525BF1361BA2CC42002C6974 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 525BF1141BA2CC42002C6974 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 525BF11B1BA2CC42002C6974;
-			remoteInfo = BouncyView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		525BF11C1BA2CC42002C6974 /* BouncyView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BouncyView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,23 +23,14 @@
 		525BF1241BA2CC42002C6974 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		525BF1261BA2CC42002C6974 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		525BF1271BA2CC42002C6974 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		525BF12A1BA2CC42002C6974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		525BF12C1BA2CC42002C6974 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		525BF12F1BA2CC42002C6974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		525BF1351BA2CC42002C6974 /* BouncyViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BouncyViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		525BF13A1BA2CC42002C6974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		525BF13B1BA2CC42002C6974 /* BouncyViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BouncyViewTests.m; sourceTree = "<group>"; };
+		525BF1461BA2CCC6002C6974 /* DLWBouncyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLWBouncyView.h; sourceTree = "<group>"; };
+		525BF1471BA2CCC6002C6974 /* DLWBouncyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLWBouncyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		525BF1191BA2CC42002C6974 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		525BF1321BA2CC42002C6974 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				525BF11E1BA2CC42002C6974 /* BouncyView */,
-				525BF1381BA2CC42002C6974 /* BouncyViewTests */,
 				525BF11D1BA2CC42002C6974 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				525BF11C1BA2CC42002C6974 /* BouncyView.app */,
-				525BF1351BA2CC42002C6974 /* BouncyViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,11 +59,11 @@
 		525BF11E1BA2CC42002C6974 /* BouncyView */ = {
 			isa = PBXGroup;
 			children = (
+				525BF1451BA2CCC6002C6974 /* Classes */,
 				525BF1231BA2CC42002C6974 /* AppDelegate.h */,
 				525BF1241BA2CC42002C6974 /* AppDelegate.m */,
 				525BF1261BA2CC42002C6974 /* ViewController.h */,
 				525BF1271BA2CC42002C6974 /* ViewController.m */,
-				525BF1291BA2CC42002C6974 /* Main.storyboard */,
 				525BF12C1BA2CC42002C6974 /* Images.xcassets */,
 				525BF12E1BA2CC42002C6974 /* LaunchScreen.xib */,
 				525BF11F1BA2CC42002C6974 /* Supporting Files */,
@@ -102,21 +80,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		525BF1381BA2CC42002C6974 /* BouncyViewTests */ = {
+		525BF1451BA2CCC6002C6974 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				525BF13B1BA2CC42002C6974 /* BouncyViewTests.m */,
-				525BF1391BA2CC42002C6974 /* Supporting Files */,
+				525BF1461BA2CCC6002C6974 /* DLWBouncyView.h */,
+				525BF1471BA2CCC6002C6974 /* DLWBouncyView.m */,
 			);
-			path = BouncyViewTests;
-			sourceTree = "<group>";
-		};
-		525BF1391BA2CC42002C6974 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				525BF13A1BA2CC42002C6974 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,24 +109,6 @@
 			productReference = 525BF11C1BA2CC42002C6974 /* BouncyView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		525BF1341BA2CC42002C6974 /* BouncyViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 525BF1421BA2CC42002C6974 /* Build configuration list for PBXNativeTarget "BouncyViewTests" */;
-			buildPhases = (
-				525BF1311BA2CC42002C6974 /* Sources */,
-				525BF1321BA2CC42002C6974 /* Frameworks */,
-				525BF1331BA2CC42002C6974 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				525BF1371BA2CC42002C6974 /* PBXTargetDependency */,
-			);
-			name = BouncyViewTests;
-			productName = BouncyViewTests;
-			productReference = 525BF1351BA2CC42002C6974 /* BouncyViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +120,6 @@
 				TargetAttributes = {
 					525BF11B1BA2CC42002C6974 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					525BF1341BA2CC42002C6974 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 525BF11B1BA2CC42002C6974;
 					};
 				};
 			};
@@ -189,7 +137,6 @@
 			projectRoot = "";
 			targets = (
 				525BF11B1BA2CC42002C6974 /* BouncyView */,
-				525BF1341BA2CC42002C6974 /* BouncyViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,16 +146,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				525BF12B1BA2CC42002C6974 /* Main.storyboard in Resources */,
 				525BF1301BA2CC42002C6974 /* LaunchScreen.xib in Resources */,
 				525BF12D1BA2CC42002C6974 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		525BF1331BA2CC42002C6974 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,39 +158,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525BF1481BA2CCC6002C6974 /* DLWBouncyView.m in Sources */,
 				525BF1281BA2CC42002C6974 /* ViewController.m in Sources */,
 				525BF1251BA2CC42002C6974 /* AppDelegate.m in Sources */,
 				525BF1221BA2CC42002C6974 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		525BF1311BA2CC42002C6974 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				525BF13C1BA2CC42002C6974 /* BouncyViewTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		525BF1371BA2CC42002C6974 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 525BF11B1BA2CC42002C6974 /* BouncyView */;
-			targetProxy = 525BF1361BA2CC42002C6974 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		525BF1291BA2CC42002C6974 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				525BF12A1BA2CC42002C6974 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		525BF12E1BA2CC42002C6974 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -299,7 +215,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -336,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -363,40 +279,6 @@
 			};
 			name = Release;
 		};
-		525BF1431BA2CC42002C6974 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BouncyViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BouncyView.app/BouncyView";
-			};
-			name = Debug;
-		};
-		525BF1441BA2CC42002C6974 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BouncyViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BouncyView.app/BouncyView";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -414,14 +296,6 @@
 			buildConfigurations = (
 				525BF1401BA2CC42002C6974 /* Debug */,
 				525BF1411BA2CC42002C6974 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		525BF1421BA2CC42002C6974 /* Build configuration list for PBXNativeTarget "BouncyViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				525BF1431BA2CC42002C6974 /* Debug */,
-				525BF1441BA2CC42002C6974 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
