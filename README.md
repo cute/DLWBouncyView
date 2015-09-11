@@ -8,7 +8,7 @@ BouncyView is an implementation of a recently popular bouncy effect for any view
 
 ## Demo
 
-![Demo GIF](https://raw.githubusercontent.com/cute/BouncyView/master/demo.gif)
+![Demo GIF](https://raw.githubusercontent.com/cute/DLWBouncyView/master/demo.gif)
 
 ## Author
 
